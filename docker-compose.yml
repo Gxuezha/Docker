@@ -11,7 +11,7 @@ services:
     volumes:
       - /filerun/db:/var/lib/mysql
 
-  web:
+  cloud:
     image: afian/filerun
     environment:
       FR_DB_HOST: db
